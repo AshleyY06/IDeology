@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08983D4A28876BA8000F24CE /* checkInQuestions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08983D4928876BA8000F24CE /* checkInQuestions.swift */; };
+		08983D4C28876E60000F24CE /* SimulatorEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08983D4B28876E60000F24CE /* SimulatorEmail.swift */; };
+		08983D4E28876E90000F24CE /* Emails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08983D4D28876E90000F24CE /* Emails.swift */; };
 		BD09E68C28872EDC00B15E55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD09E68B28872EDC00B15E55 /* AppDelegate.swift */; };
 		BD09E68E28872EDC00B15E55 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD09E68D28872EDC00B15E55 /* SceneDelegate.swift */; };
 		BD09E69028872EDC00B15E55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD09E68F28872EDC00B15E55 /* ViewController.swift */; };
@@ -37,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08983D4928876BA8000F24CE /* checkInQuestions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = checkInQuestions.swift; sourceTree = "<group>"; };
+		08983D4B28876E60000F24CE /* SimulatorEmail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulatorEmail.swift; sourceTree = "<group>"; };
+		08983D4D28876E90000F24CE /* Emails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emails.swift; sourceTree = "<group>"; };
 		BD09E68828872EDC00B15E55 /* IDeology.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IDeology.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD09E68B28872EDC00B15E55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD09E68D28872EDC00B15E55 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +112,9 @@
 				BD09E68F28872EDC00B15E55 /* ViewController.swift */,
 				BD09E69928872EDE00B15E55 /* LaunchScreen.storyboard */,
 				BD09E69128872EDC00B15E55 /* Main.storyboard */,
+				08983D4D28876E90000F24CE /* Emails.swift */,
+				08983D4B28876E60000F24CE /* SimulatorEmail.swift */,
+				08983D4928876BA8000F24CE /* checkInQuestions.swift */,
 				BD09E69728872EDE00B15E55 /* Assets.xcassets */,
 				BD09E69C28872EDE00B15E55 /* Info.plist */,
 				BD09E69428872EDC00B15E55 /* IDeology.xcdatamodeld */,
@@ -261,10 +270,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08983D4A28876BA8000F24CE /* checkInQuestions.swift in Sources */,
+				08983D4E28876E90000F24CE /* Emails.swift in Sources */,
 				BD09E69028872EDC00B15E55 /* ViewController.swift in Sources */,
 				BD09E69628872EDC00B15E55 /* IDeology.xcdatamodeld in Sources */,
 				BD09E68C28872EDC00B15E55 /* AppDelegate.swift in Sources */,
 				BD09E68E28872EDC00B15E55 /* SceneDelegate.swift in Sources */,
+				08983D4C28876E60000F24CE /* SimulatorEmail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

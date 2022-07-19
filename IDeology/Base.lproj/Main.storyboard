@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -27,7 +27,7 @@
                                 <rect key="frame" x="109" y="323" width="197" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Questionnaire"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Security Check-in"/>
                                 <connections>
                                     <segue destination="MaM-S3-8ai" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="Yxc-Ju-rva"/>
                                 </connections>
@@ -37,9 +37,12 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Simulators"/>
+                                <connections>
+                                    <segue destination="RVa-MY-hT0" kind="show" id="GfL-fX-cXY"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lgd-Ug-tN3">
-                                <rect key="frame" x="109" y="442" width="197" height="31"/>
+                                <rect key="frame" x="109" y="433" width="197" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Resources"/>
@@ -53,10 +56,39 @@
             </objects>
             <point key="canvasLocation" x="18.840579710144929" y="83.705357142857139"/>
         </scene>
-        <!--Questionnaire-->
+        <!--Simulator Email-->
+        <scene sceneID="Cz3-UB-fCO">
+            <objects>
+                <tableViewController id="RVa-MY-hT0" customClass="SimulatorEmail" customModule="IDeology" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="pak-ft-euu">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="reuseIdentifier" id="cyl-Vv-4UL">
+                                <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="cyl-Vv-4UL" id="bt8-IY-kzB">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="RVa-MY-hT0" id="Sl7-7x-0UK"/>
+                            <outlet property="delegate" destination="RVa-MY-hT0" id="KuO-Ct-stz"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="ynn-va-H18"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YPe-YL-Frn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="730" y="84"/>
+        </scene>
+        <!--Check In Questions-->
         <scene sceneID="HY0-Rp-kh5">
             <objects>
-                <viewController id="MaM-S3-8ai" customClass="Questionnaire" sceneMemberID="viewController">
+                <viewController id="MaM-S3-8ai" customClass="checkInQuestions" customModule="IDeology" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vH4-Db-cVv">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
