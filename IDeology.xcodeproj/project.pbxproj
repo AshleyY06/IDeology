@@ -104,9 +104,9 @@
 				BD09E68B28872EDC00B15E55 /* AppDelegate.swift */,
 				BD09E68D28872EDC00B15E55 /* SceneDelegate.swift */,
 				BD09E68F28872EDC00B15E55 /* ViewController.swift */,
+				BD09E69928872EDE00B15E55 /* LaunchScreen.storyboard */,
 				BD09E69128872EDC00B15E55 /* Main.storyboard */,
 				BD09E69728872EDE00B15E55 /* Assets.xcassets */,
-				BD09E69928872EDE00B15E55 /* LaunchScreen.storyboard */,
 				BD09E69C28872EDE00B15E55 /* Info.plist */,
 				BD09E69428872EDC00B15E55 /* IDeology.xcdatamodeld */,
 			);
