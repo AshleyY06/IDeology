@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD09E68C28872EDC00B15E55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD09E68B28872EDC00B15E55 /* AppDelegate.swift */; };
+		BD09E68E28872EDC00B15E55 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD09E68D28872EDC00B15E55 /* SceneDelegate.swift */; };
+		BD09E69028872EDC00B15E55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD09E68F28872EDC00B15E55 /* ViewController.swift */; };
+		BD09E69328872EDC00B15E55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD09E69128872EDC00B15E55 /* Main.storyboard */; };
+		BD09E69628872EDC00B15E55 /* IDeology.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD09E69428872EDC00B15E55 /* IDeology.xcdatamodeld */; };
+		BD09E69828872EDE00B15E55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD09E69728872EDE00B15E55 /* Assets.xcassets */; };
+		BD09E69B28872EDE00B15E55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD09E69928872EDE00B15E55 /* LaunchScreen.storyboard */; };
+		BD09E6A628872EDE00B15E55 /* IDeologyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD09E6A528872EDE00B15E55 /* IDeologyTests.swift */; };
+		BD09E6B028872EDE00B15E55 /* IDeologyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD09E6AF28872EDE00B15E55 /* IDeologyUITests.swift */; };
+		BD09E6B228872EDE00B15E55 /* IDeologyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD09E6B128872EDE00B15E55 /* IDeologyUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD09E6A228872EDE00B15E55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD09E68028872EDC00B15E55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD09E68728872EDC00B15E55;
+			remoteInfo = IDeology;
+		};
+		BD09E6AC28872EDE00B15E55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD09E68028872EDC00B15E55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD09E68728872EDC00B15E55;
+			remoteInfo = IDeology;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD09E68828872EDC00B15E55 /* IDeology.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IDeology.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD09E68B28872EDC00B15E55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BD09E68D28872EDC00B15E55 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BD09E68F28872EDC00B15E55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BD09E69228872EDC00B15E55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD09E69528872EDC00B15E55 /* IDeology.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IDeology.xcdatamodel; sourceTree = "<group>"; };
+		BD09E69728872EDE00B15E55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD09E69A28872EDE00B15E55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD09E69C28872EDE00B15E55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD09E6A128872EDE00B15E55 /* IDeologyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IDeologyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD09E6A528872EDE00B15E55 /* IDeologyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDeologyTests.swift; sourceTree = "<group>"; };
+		BD09E6AB28872EDE00B15E55 /* IDeologyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IDeologyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD09E6AF28872EDE00B15E55 /* IDeologyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDeologyUITests.swift; sourceTree = "<group>"; };
+		BD09E6B128872EDE00B15E55 /* IDeologyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDeologyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD09E68528872EDC00B15E55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD09E69E28872EDE00B15E55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD09E6A828872EDE00B15E55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD09E67F28872EDC00B15E55 = {
+			isa = PBXGroup;
+			children = (
+				BD09E68A28872EDC00B15E55 /* IDeology */,
+				BD09E6A428872EDE00B15E55 /* IDeologyTests */,
+				BD09E6AE28872EDE00B15E55 /* IDeologyUITests */,
+				BD09E68928872EDC00B15E55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD09E68928872EDC00B15E55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD09E68828872EDC00B15E55 /* IDeology.app */,
+				BD09E6A128872EDE00B15E55 /* IDeologyTests.xctest */,
+				BD09E6AB28872EDE00B15E55 /* IDeologyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD09E68A28872EDC00B15E55 /* IDeology */ = {
+			isa = PBXGroup;
+			children = (
+				BD09E68B28872EDC00B15E55 /* AppDelegate.swift */,
+				BD09E68D28872EDC00B15E55 /* SceneDelegate.swift */,
+				BD09E68F28872EDC00B15E55 /* ViewController.swift */,
+				BD09E69128872EDC00B15E55 /* Main.storyboard */,
+				BD09E69728872EDE00B15E55 /* Assets.xcassets */,
+				BD09E69928872EDE00B15E55 /* LaunchScreen.storyboard */,
+				BD09E69C28872EDE00B15E55 /* Info.plist */,
+				BD09E69428872EDC00B15E55 /* IDeology.xcdatamodeld */,
+			);
+			path = IDeology;
+			sourceTree = "<group>";
+		};
+		BD09E6A428872EDE00B15E55 /* IDeologyTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD09E6A528872EDE00B15E55 /* IDeologyTests.swift */,
+			);
+			path = IDeologyTests;
+			sourceTree = "<group>";
+		};
+		BD09E6AE28872EDE00B15E55 /* IDeologyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD09E6AF28872EDE00B15E55 /* IDeologyUITests.swift */,
+				BD09E6B128872EDE00B15E55 /* IDeologyUITestsLaunchTests.swift */,
+			);
+			path = IDeologyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD09E68728872EDC00B15E55 /* IDeology */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD09E6B528872EDE00B15E55 /* Build configuration list for PBXNativeTarget "IDeology" */;
+			buildPhases = (
+				BD09E68428872EDC00B15E55 /* Sources */,
+				BD09E68528872EDC00B15E55 /* Frameworks */,
+				BD09E68628872EDC00B15E55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IDeology;
+			productName = IDeology;
+			productReference = BD09E68828872EDC00B15E55 /* IDeology.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD09E6A028872EDE00B15E55 /* IDeologyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD09E6B828872EDE00B15E55 /* Build configuration list for PBXNativeTarget "IDeologyTests" */;
+			buildPhases = (
+				BD09E69D28872EDE00B15E55 /* Sources */,
+				BD09E69E28872EDE00B15E55 /* Frameworks */,
+				BD09E69F28872EDE00B15E55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD09E6A328872EDE00B15E55 /* PBXTargetDependency */,
+			);
+			name = IDeologyTests;
+			productName = IDeologyTests;
+			productReference = BD09E6A128872EDE00B15E55 /* IDeologyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD09E6AA28872EDE00B15E55 /* IDeologyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD09E6BB28872EDE00B15E55 /* Build configuration list for PBXNativeTarget "IDeologyUITests" */;
+			buildPhases = (
+				BD09E6A728872EDE00B15E55 /* Sources */,
+				BD09E6A828872EDE00B15E55 /* Frameworks */,
+				BD09E6A928872EDE00B15E55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD09E6AD28872EDE00B15E55 /* PBXTargetDependency */,
+			);
+			name = IDeologyUITests;
+			productName = IDeologyUITests;
+			productReference = BD09E6AB28872EDE00B15E55 /* IDeologyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD09E68028872EDC00B15E55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					BD09E68728872EDC00B15E55 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					BD09E6A028872EDE00B15E55 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = BD09E68728872EDC00B15E55;
+					};
+					BD09E6AA28872EDE00B15E55 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = BD09E68728872EDC00B15E55;
+					};
+				};
+			};
+			buildConfigurationList = BD09E68328872EDC00B15E55 /* Build configuration list for PBXProject "IDeology" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD09E67F28872EDC00B15E55;
+			productRefGroup = BD09E68928872EDC00B15E55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD09E68728872EDC00B15E55 /* IDeology */,
+				BD09E6A028872EDE00B15E55 /* IDeologyTests */,
+				BD09E6AA28872EDE00B15E55 /* IDeologyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD09E68628872EDC00B15E55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD09E69B28872EDE00B15E55 /* LaunchScreen.storyboard in Resources */,
+				BD09E69828872EDE00B15E55 /* Assets.xcassets in Resources */,
+				BD09E69328872EDC00B15E55 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD09E69F28872EDE00B15E55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD09E6A928872EDE00B15E55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD09E68428872EDC00B15E55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD09E69028872EDC00B15E55 /* ViewController.swift in Sources */,
+				BD09E69628872EDC00B15E55 /* IDeology.xcdatamodeld in Sources */,
+				BD09E68C28872EDC00B15E55 /* AppDelegate.swift in Sources */,
+				BD09E68E28872EDC00B15E55 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD09E69D28872EDE00B15E55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD09E6A628872EDE00B15E55 /* IDeologyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD09E6A728872EDE00B15E55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD09E6B228872EDE00B15E55 /* IDeologyUITestsLaunchTests.swift in Sources */,
+				BD09E6B028872EDE00B15E55 /* IDeologyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD09E6A328872EDE00B15E55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD09E68728872EDC00B15E55 /* IDeology */;
+			targetProxy = BD09E6A228872EDE00B15E55 /* PBXContainerItemProxy */;
+		};
+		BD09E6AD28872EDE00B15E55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD09E68728872EDC00B15E55 /* IDeology */;
+			targetProxy = BD09E6AC28872EDE00B15E55 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD09E69128872EDC00B15E55 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD09E69228872EDC00B15E55 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD09E69928872EDE00B15E55 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD09E69A28872EDE00B15E55 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD09E6B328872EDE00B15E55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BD09E6B428872EDE00B15E55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD09E6B628872EDE00B15E55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IDeology/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK-2022.IDeology";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD09E6B728872EDE00B15E55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IDeology/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK-2022.IDeology";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BD09E6B928872EDE00B15E55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK-2022.IDeologyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IDeology.app/IDeology";
+			};
+			name = Debug;
+		};
+		BD09E6BA28872EDE00B15E55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK-2022.IDeologyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IDeology.app/IDeology";
+			};
+			name = Release;
+		};
+		BD09E6BC28872EDE00B15E55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK-2022.IDeologyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IDeology;
+			};
+			name = Debug;
+		};
+		BD09E6BD28872EDE00B15E55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK-2022.IDeologyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IDeology;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD09E68328872EDC00B15E55 /* Build configuration list for PBXProject "IDeology" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD09E6B328872EDE00B15E55 /* Debug */,
+				BD09E6B428872EDE00B15E55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD09E6B528872EDE00B15E55 /* Build configuration list for PBXNativeTarget "IDeology" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD09E6B628872EDE00B15E55 /* Debug */,
+				BD09E6B728872EDE00B15E55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD09E6B828872EDE00B15E55 /* Build configuration list for PBXNativeTarget "IDeologyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD09E6B928872EDE00B15E55 /* Debug */,
+				BD09E6BA28872EDE00B15E55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD09E6BB28872EDE00B15E55 /* Build configuration list for PBXNativeTarget "IDeologyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD09E6BC28872EDE00B15E55 /* Debug */,
+				BD09E6BD28872EDE00B15E55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BD09E69428872EDC00B15E55 /* IDeology.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BD09E69528872EDC00B15E55 /* IDeology.xcdatamodel */,
+			);
+			currentVersion = BD09E69528872EDC00B15E55 /* IDeology.xcdatamodel */;
+			path = IDeology.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BD09E68028872EDC00B15E55 /* Project object */;
+}
