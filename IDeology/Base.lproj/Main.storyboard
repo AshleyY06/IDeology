@@ -25,28 +25,34 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mDG-K8-tdG">
-                                <rect key="frame" x="109" y="323" width="197" height="31"/>
+                                <rect key="frame" x="68" y="391" width="278" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.46304655080000001" green="0.48989814520000002" blue="0.65687543150000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Security Check-in"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Security Check-in">
+                                    <fontDescription key="titleFontDescription" name="Optima-Regular" family="Optima" pointSize="20"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="MaM-S3-8ai" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="Yxc-Ju-rva"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uPa-4R-6N7">
-                                <rect key="frame" x="109" y="379" width="197" height="46"/>
+                                <rect key="frame" x="68" y="316" width="278" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.87958389520000002" green="0.68640315529999996" blue="0.62476408480000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Simulators"/>
-                                <connections>
-                                    <segue destination="BVa-ts-6m3" kind="presentation" modalPresentationStyle="fullScreen" id="wV9-Sl-czc"/>
-                                </connections>
+                                <buttonConfiguration key="configuration" style="filled" title="Email Simulator">
+                                    <fontDescription key="titleFontDescription" name="Optima-Regular" family="Optima" pointSize="20"/>
+                                </buttonConfiguration>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lgd-Ug-tN3">
-                                <rect key="frame" x="109" y="433" width="197" height="31"/>
+                                <rect key="frame" x="68" y="464" width="278" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.28980290889999999" green="0.4348811507" blue="0.64226138590000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Resources"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Information/Resources">
+                                    <fontDescription key="titleFontDescription" name="Optima-Regular" family="Optima" pointSize="20"/>
+                                </buttonConfiguration>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -56,66 +62,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="18.840579710144929" y="83.705357142857139"/>
-        </scene>
-        <!--Inbox-->
-        <scene sceneID="Cz3-UB-fCO">
-            <objects>
-                <tableViewController id="RVa-MY-hT0" customClass="SimulatorEmail" customModule="IDeology" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="pak-ft-euu">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="reuseIdentifier" rowHeight="93" id="cyl-Vv-4UL">
-                                <rect key="frame" x="0.0" y="44.5" width="414" height="93"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="cyl-Vv-4UL" id="bt8-IY-kzB">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="93"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
-                                <connections>
-                                    <segue destination="de1-ER-M1X" kind="show" identifier="openingEmail" id="gXX-wy-mhi"/>
-                                </connections>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="RVa-MY-hT0" id="Sl7-7x-0UK"/>
-                            <outlet property="delegate" destination="RVa-MY-hT0" id="KuO-Ct-stz"/>
-                        </connections>
-                    </tableView>
-                    <navigationItem key="navigationItem" title="Inbox" id="ynn-va-H18"/>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="YPe-YL-Frn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1902.8985507246377" y="83.705357142857139"/>
-        </scene>
-        <!--Actual Email View Controller-->
-        <scene sceneID="q5l-gj-1MK">
-            <objects>
-                <viewController id="de1-ER-M1X" customClass="ActualEmailViewController" customModule="IDeology" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="zzf-Z5-U2W">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Email Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ofw-fp-yTD">
-                                <rect key="frame" x="20" y="94" width="374" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="hoT-JS-P8d"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="7M2-0T-dKX"/>
-                    <connections>
-                        <outlet property="emailLabel" destination="ofw-fp-yTD" id="aEl-R3-eFr"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dQc-CT-nAb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2898.5507246376815" y="83.705357142857139"/>
         </scene>
         <!--Check In Questions-->
         <scene sceneID="HY0-Rp-kh5">
@@ -132,23 +78,30 @@
             </objects>
             <point key="canvasLocation" x="-804" y="748"/>
         </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="zMi-Uu-Bld">
+        <!--View Controller-->
+        <scene sceneID="ebg-dB-XEC">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="BVa-ts-6m3" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="kHK-hW-yrN">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="RVa-MY-hT0" kind="relationship" relationship="rootViewController" id="34a-cE-X3W"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="NxU-eY-X8R" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewController id="2w1-QQ-CCW" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5CS-tk-sz1">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="top" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ord-Oe-GJj">
+                                <rect key="frame" x="20" y="131" width="374" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Payments4Life"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Payments4Life"/>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="gwm-xH-9v3"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IMh-Rk-AG1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1010" y="84"/>
+            <point key="canvasLocation" x="809" y="84"/>
         </scene>
     </scenes>
     <resources>
