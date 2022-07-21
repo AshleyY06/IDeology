@@ -217,6 +217,9 @@
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Payments4Life"/>
                                 <buttonConfiguration key="configuration" style="tinted" title=""/>
+                                <connections>
+                                    <segue destination="I8R-AF-zu4" kind="presentation" modalPresentationStyle="fullScreen" id="Jsp-2l-FwW"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Inbox" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IiZ-o4-cii">
                                 <rect key="frame" x="151" y="104" width="113" height="33"/>
@@ -267,6 +270,9 @@
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Payments4Life"/>
                                 <buttonConfiguration key="configuration" style="tinted"/>
+                                <connections>
+                                    <segue destination="eY5-RG-te2" kind="presentation" modalPresentationStyle="fullScreen" id="d8S-Vi-q6x"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hulu" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gJ1-IN-T34">
                                 <rect key="frame" x="45" y="335" width="38" height="21"/>
@@ -358,6 +364,9 @@
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Payments4Life"/>
                                 <buttonConfiguration key="configuration" style="tinted"/>
+                                <connections>
+                                    <segue destination="iZc-WE-bTv" kind="presentation" modalPresentationStyle="fullScreen" id="D7E-uV-Rz9"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Bank of America" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z91-d3-aBV">
                                 <rect key="frame" x="45" y="529" width="134" height="21"/>
@@ -403,6 +412,9 @@
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Payments4Life"/>
                                 <buttonConfiguration key="configuration" style="tinted"/>
+                                <connections>
+                                    <segue destination="TgS-CR-EoT" kind="presentation" modalPresentationStyle="fullScreen" id="Ygc-m6-xzH"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Emirates " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bmH-mn-hcI">
                                 <rect key="frame" x="45" y="626" width="76" height="21"/>
@@ -448,6 +460,15 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kii-UX-q7T">
+                                <rect key="frame" x="126" y="739" width="162" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Back to Home">
+                                    <fontDescription key="titleFontDescription" name="Optima-Regular" family="Optima" pointSize="20"/>
+                                </buttonConfiguration>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="gwm-xH-9v3"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -533,6 +554,15 @@ Amazon
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nnG-zC-Lfd">
+                                <rect key="frame" x="0.0" y="66" width="117" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="arrow.backward" catalog="system" title="Back"/>
+                                <connections>
+                                    <action selector="backToInbox:" destination="xLZ-7D-SII" eventType="touchUpInside" id="Ssa-0K-0iS"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="lDi-hY-gqW"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -579,8 +609,8 @@ Amazon
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Unusual Activity" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9QQ-C5-e5K">
-                                <rect key="frame" x="18" y="250" width="229" height="36"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Flight Cancelled" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9QQ-C5-e5K">
+                                <rect key="frame" x="18" y="250" width="227" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                 <nil key="textColor"/>
@@ -700,6 +730,7 @@ Bank of America
                         <viewLayoutGuide key="safeArea" id="INq-M4-BqS"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="eOs-ko-ZH7"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zKa-lF-ZEC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -780,6 +811,16 @@ Payments4life
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Np8-bc-oor">
+                                <rect key="frame" x="0.0" y="65" width="117" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="arrow.backward" catalog="system" title="Back"/>
+                                <connections>
+                                    <action selector="backToInbox:" destination="I8R-AF-zu4" eventType="touchUpInside" id="3Pz-uS-WVT"/>
+                                    <action selector="backToInbox:" destination="xLZ-7D-SII" eventType="touchUpInside" id="h6g-oU-DGy"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="BPn-Lg-PDF"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -874,6 +915,7 @@ Your Friends @ Hulu
     </scenes>
     <resources>
         <image name="alina-grubnyak-ZiQkhI7417A-unsplash" width="3456" height="2304"/>
+        <image name="arrow.backward" catalog="system" width="128" height="98"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

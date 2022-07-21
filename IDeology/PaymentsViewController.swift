@@ -16,6 +16,9 @@ class PaymentsViewController: UIViewController {
     }
     
 
+    @IBAction func backToInbox(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+    }
     /*
     // MARK: - Navigation
 
