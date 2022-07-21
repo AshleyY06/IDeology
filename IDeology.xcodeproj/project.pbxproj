@@ -19,6 +19,8 @@
 		BD09E6A628872EDE00B15E55 /* IDeologyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD09E6A528872EDE00B15E55 /* IDeologyTests.swift */; };
 		BD09E6B028872EDE00B15E55 /* IDeologyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD09E6AF28872EDE00B15E55 /* IDeologyUITests.swift */; };
 		BD09E6B228872EDE00B15E55 /* IDeologyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD09E6B128872EDE00B15E55 /* IDeologyUITestsLaunchTests.swift */; };
+		BD7B56972889CB8C00183588 /* EmailDirections.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7B56962889CB8C00183588 /* EmailDirections.swift */; };
+		BD7B56992889CBBE00183588 /* SecurityDirections.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7B56982889CBBE00183588 /* SecurityDirections.swift */; };
 		F410727528899BED004CA1D7 /* HuluViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F410727428899BED004CA1D7 /* HuluViewController.swift */; };
 		F410727928899D49004CA1D7 /* AmazonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F410727828899D49004CA1D7 /* AmazonViewController.swift */; };
 		F410727B28899DB9004CA1D7 /* BankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F410727A28899DB9004CA1D7 /* BankViewController.swift */; };
@@ -60,6 +62,8 @@
 		BD09E6AB28872EDE00B15E55 /* IDeologyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IDeologyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD09E6AF28872EDE00B15E55 /* IDeologyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDeologyUITests.swift; sourceTree = "<group>"; };
 		BD09E6B128872EDE00B15E55 /* IDeologyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDeologyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BD7B56962889CB8C00183588 /* EmailDirections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailDirections.swift; sourceTree = "<group>"; };
+		BD7B56982889CBBE00183588 /* SecurityDirections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityDirections.swift; sourceTree = "<group>"; };
 		F410727428899BED004CA1D7 /* HuluViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuluViewController.swift; sourceTree = "<group>"; };
 		F410727828899D49004CA1D7 /* AmazonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmazonViewController.swift; sourceTree = "<group>"; };
 		F410727A28899DB9004CA1D7 /* BankViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankViewController.swift; sourceTree = "<group>"; };
@@ -120,6 +124,8 @@
 				BD09E68F28872EDC00B15E55 /* ViewController.swift */,
 				BD09E69928872EDE00B15E55 /* LaunchScreen.storyboard */,
 				BD09E69128872EDC00B15E55 /* Main.storyboard */,
+				BD7B56982889CBBE00183588 /* SecurityDirections.swift */,
+				BD7B56962889CB8C00183588 /* EmailDirections.swift */,
 				F410727E28899E26004CA1D7 /* PaymentsViewController.swift */,
 				F410727C28899DE0004CA1D7 /* EmiratesViewController.swift */,
 				F410727A28899DB9004CA1D7 /* BankViewController.swift */,
@@ -288,8 +294,10 @@
 				BD09E69028872EDC00B15E55 /* ViewController.swift in Sources */,
 				BD09E69628872EDC00B15E55 /* IDeology.xcdatamodeld in Sources */,
 				08983D502888C73A000F24CE /* ViewControllerEmail.swift in Sources */,
+				BD7B56992889CBBE00183588 /* SecurityDirections.swift in Sources */,
 				BD09E68C28872EDC00B15E55 /* AppDelegate.swift in Sources */,
 				F410727B28899DB9004CA1D7 /* BankViewController.swift in Sources */,
+				BD7B56972889CB8C00183588 /* EmailDirections.swift in Sources */,
 				F410727F28899E26004CA1D7 /* PaymentsViewController.swift in Sources */,
 				F410727D28899DE0004CA1D7 /* EmiratesViewController.swift in Sources */,
 				BD09E68E28872EDC00B15E55 /* SceneDelegate.swift in Sources */,

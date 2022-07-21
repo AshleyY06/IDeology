@@ -9,10 +9,16 @@ import UIKit
 
 class AmazonViewController: UIViewController {
 
+    @IBOutlet weak var warning: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        warning.isHidden = true
         // Do any additional setup after loading the view.
+    }
+    
+    @IBAction func file(_ sender: Any) {
+        warning.isHidden = false
     }
     
     @IBAction func backToInbox(_ sender: Any) {

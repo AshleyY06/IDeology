@@ -1,13 +1,13 @@
 //
-//  ViewControllerEmail.swift
+//  EmailDirections.swift
 //  IDeology
 //
-//  Created by Tanishqa Kuchi on 7/20/22.
+//  Created by scholar on 7/21/22.
 //
 
 import UIKit
 
-class ViewControllerEmail: UIViewController {
+class EmailDirections: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -15,7 +15,7 @@ class ViewControllerEmail: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func backToDirections(_ sender: Any) {
+    @IBAction func backToHome(_ sender: Any) {
         dismiss(animated: true, completion: nil)
     }
     
