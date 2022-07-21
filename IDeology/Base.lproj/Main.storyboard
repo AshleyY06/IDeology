@@ -152,7 +152,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <string key="content">Welcome! The security check-in page will ask you questions to make sure that you have completed various security measures that are essential for a strong identical presence online to prevent . Click the button below to go through the security check-in!</string>
+                                        <string key="content">Welcome! The security check-in page will ask you questions to make sure that you have completed various security measures that are essential for a strong identical presence online to prevent. Click the button below to go through the security check-in!</string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" size="20" name="Optima-Regular"/>
@@ -208,7 +208,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vK9-ww-2Ir" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1526" y="481"/>
+            <point key="canvasLocation" x="-1459" y="481"/>
         </scene>
         <!--View Controller Email-->
         <scene sceneID="ebg-dB-XEC">
