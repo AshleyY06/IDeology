@@ -10,7 +10,9 @@
 		08983D4A28876BA8000F24CE /* checkInQuestions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08983D4928876BA8000F24CE /* checkInQuestions.swift */; };
 		08983D502888C73A000F24CE /* ViewControllerEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08983D4F2888C739000F24CE /* ViewControllerEmail.swift */; };
 		08983D52288AF136000F24CE /* WebsiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08983D51288AF136000F24CE /* WebsiteViewController.swift */; };
-		BD028E9A288AE9E6002AF122 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD028E99288AE9E6002AF122 /* VideoViewController.swift */; };
+		BD028E9E288AF621002AF122 /* ResourcesDirectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD028E9D288AF621002AF122 /* ResourcesDirectionsViewController.swift */; };
+		BD028EA0288AF68B002AF122 /* phishing.mov in Resources */ = {isa = PBXBuildFile; fileRef = BD028E9F288AF68B002AF122 /* phishing.mov */; };
+		BD028EA2288AF9D8002AF122 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD028EA1288AF9D8002AF122 /* VideoViewController.swift */; };
 		BD09E68C28872EDC00B15E55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD09E68B28872EDC00B15E55 /* AppDelegate.swift */; };
 		BD09E68E28872EDC00B15E55 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD09E68D28872EDC00B15E55 /* SceneDelegate.swift */; };
 		BD09E69028872EDC00B15E55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD09E68F28872EDC00B15E55 /* ViewController.swift */; };
@@ -51,7 +53,9 @@
 		08983D4928876BA8000F24CE /* checkInQuestions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = checkInQuestions.swift; sourceTree = "<group>"; };
 		08983D4F2888C739000F24CE /* ViewControllerEmail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerEmail.swift; sourceTree = "<group>"; };
 		08983D51288AF136000F24CE /* WebsiteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsiteViewController.swift; sourceTree = "<group>"; };
-		BD028E99288AE9E6002AF122 /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		BD028E9D288AF621002AF122 /* ResourcesDirectionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesDirectionsViewController.swift; sourceTree = "<group>"; };
+		BD028E9F288AF68B002AF122 /* phishing.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = phishing.mov; path = ../../../Downloads/phishing.mov; sourceTree = "<group>"; };
+		BD028EA1288AF9D8002AF122 /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
 		BD09E68828872EDC00B15E55 /* IDeology.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IDeology.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD09E68B28872EDC00B15E55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD09E68D28872EDC00B15E55 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,7 +70,6 @@
 		BD09E6AB28872EDE00B15E55 /* IDeologyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IDeologyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD09E6AF28872EDE00B15E55 /* IDeologyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDeologyUITests.swift; sourceTree = "<group>"; };
 		BD09E6B128872EDE00B15E55 /* IDeologyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDeologyUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		BD4A94D4288AE93C001E7DD7 /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = video.mp4; path = "../../../Downloads/Airy/How to Spot and Avoid Phishing Attacks(720p)/video.mp4"; sourceTree = "<group>"; };
 		BD7B56962889CB8C00183588 /* EmailDirections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailDirections.swift; sourceTree = "<group>"; };
 		BD7B56982889CBBE00183588 /* SecurityDirections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityDirections.swift; sourceTree = "<group>"; };
 		F410727428899BED004CA1D7 /* HuluViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuluViewController.swift; sourceTree = "<group>"; };
@@ -124,14 +127,15 @@
 		BD09E68A28872EDC00B15E55 /* IDeology */ = {
 			isa = PBXGroup;
 			children = (
-				BD4A94D4288AE93C001E7DD7 /* video.mp4 */,
+				BD028E9F288AF68B002AF122 /* phishing.mov */,
 				BD09E68B28872EDC00B15E55 /* AppDelegate.swift */,
 				BD09E68D28872EDC00B15E55 /* SceneDelegate.swift */,
 				BD09E68F28872EDC00B15E55 /* ViewController.swift */,
 				BD09E69928872EDE00B15E55 /* LaunchScreen.storyboard */,
 				BD09E69128872EDC00B15E55 /* Main.storyboard */,
+				BD028EA1288AF9D8002AF122 /* VideoViewController.swift */,
+				BD028E9D288AF621002AF122 /* ResourcesDirectionsViewController.swift */,
 				08983D51288AF136000F24CE /* WebsiteViewController.swift */,
-				BD028E99288AE9E6002AF122 /* VideoViewController.swift */,
 				BD7B56982889CBBE00183588 /* SecurityDirections.swift */,
 				BD7B56962889CB8C00183588 /* EmailDirections.swift */,
 				F410727E28899E26004CA1D7 /* PaymentsViewController.swift */,
@@ -271,6 +275,7 @@
 			files = (
 				BD09E69B28872EDE00B15E55 /* LaunchScreen.storyboard in Resources */,
 				BD09E69828872EDE00B15E55 /* Assets.xcassets in Resources */,
+				BD028EA0288AF68B002AF122 /* phishing.mov in Resources */,
 				BD09E69328872EDC00B15E55 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,6 +301,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD028E9E288AF621002AF122 /* ResourcesDirectionsViewController.swift in Sources */,
 				F410727928899D49004CA1D7 /* AmazonViewController.swift in Sources */,
 				F410727528899BED004CA1D7 /* HuluViewController.swift in Sources */,
 				08983D4A28876BA8000F24CE /* checkInQuestions.swift in Sources */,
@@ -304,8 +310,8 @@
 				08983D502888C73A000F24CE /* ViewControllerEmail.swift in Sources */,
 				BD7B56992889CBBE00183588 /* SecurityDirections.swift in Sources */,
 				BD09E68C28872EDC00B15E55 /* AppDelegate.swift in Sources */,
-				BD028E9A288AE9E6002AF122 /* VideoViewController.swift in Sources */,
 				F410727B28899DB9004CA1D7 /* BankViewController.swift in Sources */,
+				BD028EA2288AF9D8002AF122 /* VideoViewController.swift in Sources */,
 				08983D52288AF136000F24CE /* WebsiteViewController.swift in Sources */,
 				BD7B56972889CB8C00183588 /* EmailDirections.swift in Sources */,
 				F410727F28899E26004CA1D7 /* PaymentsViewController.swift in Sources */,

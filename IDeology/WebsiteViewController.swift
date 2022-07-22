@@ -21,7 +21,10 @@ class WebsiteViewController: UIViewController {
         infoLinks.load(URLRequest(url:googleURL!))
     }
     
-
+    @IBAction func backtoResources(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+    }
+    
     /*
     // MARK: - Navigation
 

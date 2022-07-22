@@ -25,9 +25,23 @@
                                     <wkPreferences key="preferences"/>
                                 </wkWebViewConfiguration>
                             </wkWebView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c9a-92-dzo">
+                                <rect key="frame" x="73" y="773" width="268" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Back to Resources">
+                                    <fontDescription key="titleFontDescription" name="Optima-Regular" family="Optima" pointSize="20"/>
+                                    <color key="baseBackgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="backToHome:" destination="WEm-9h-yBD" eventType="touchUpInside" id="Wc6-JJ-Hl0"/>
+                                    <action selector="backtoResources:" destination="Fyu-ca-eD9" eventType="touchUpInside" id="ycj-D3-6pT"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="E6q-15-Flg"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.95686274770000002" green="0.9529411793" blue="0.93333339689999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <connections>
                         <outlet property="infoLinks" destination="wmi-Sy-H4L" id="YBl-nV-M0o"/>
@@ -35,7 +49,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y0R-90-je4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-735" y="-227"/>
+            <point key="canvasLocation" x="-80" y="1519"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -87,12 +101,12 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.28980290889999999" green="0.4348811507" blue="0.64226138590000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Informational Video">
+                                <buttonConfiguration key="configuration" style="filled" title="Resources">
                                     <fontDescription key="titleFontDescription" name="Optima-Regular" family="Optima" pointSize="20"/>
                                     <color key="baseBackgroundColor" red="0.28980290889999999" green="0.4348811507" blue="0.64226138590000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="Fyu-ca-eD9" kind="presentation" modalPresentationStyle="fullScreen" id="wsP-Mq-n8R"/>
+                                    <segue destination="VMW-aE-CTY" kind="presentation" modalPresentationStyle="fullScreen" id="ruy-ca-cDo"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="I-Deology" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u1a-ih-7sO">
@@ -243,45 +257,135 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ho7-On-Eg1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-735" y="481"/>
+            <point key="canvasLocation" x="-777" y="-37"/>
         </scene>
         <!--Video View Controller-->
-        <scene sceneID="lYb-Jl-Gak">
+        <scene sceneID="uHR-7t-8Yg">
             <objects>
-                <viewController id="vYb-X0-pjs" customClass="VideoViewController" customModule="IDeology" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="OLw-5l-6gi">
+                <viewController id="4XK-eS-QX8" customClass="VideoViewController" customModule="IDeology" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YFr-hA-ovo">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How to Spot and Avoid Phishing Attacks" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E1x-pL-zf7">
-                                <rect key="frame" x="32" y="77" width="350" height="74"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How to Spot and Avoid Phishing Attacks" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hwf-d0-KGd">
+                                <rect key="frame" x="32" y="110" width="350" height="74"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QZf-06-ija">
-                                <rect key="frame" x="126" y="755" width="162" height="52"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XMg-es-aZR">
+                                <rect key="frame" x="73" y="748" width="268" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Back to Home">
+                                <buttonConfiguration key="configuration" style="filled" title="Back to Resources">
                                     <fontDescription key="titleFontDescription" name="Optima-Regular" family="Optima" pointSize="20"/>
                                     <color key="baseBackgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="backToHome:" destination="WEm-9h-yBD" eventType="touchUpInside" id="FZ2-Q0-lXf"/>
-                                    <action selector="backToHome:" destination="vYb-X0-pjs" eventType="touchUpInside" id="fqy-5q-3Ty"/>
+                                    <action selector="backToHome:" destination="WEm-9h-yBD" eventType="touchUpInside" id="75F-TC-hRB"/>
+                                    <action selector="backToResource:" destination="4XK-eS-QX8" eventType="touchUpInside" id="9h0-Fp-XdR"/>
+                                    <action selector="backToResource:" destination="8ed-45-tSH" eventType="touchUpInside" id="ZXj-lM-yPt"/>
+                                    <action selector="backtoResources:" destination="Fyu-ca-eD9" eventType="touchUpInside" id="EBn-9V-LWl"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="bdh-yU-5od"/>
+                        <viewLayoutGuide key="safeArea" id="wVK-FV-1rt"/>
                         <color key="backgroundColor" red="0.95686274770000002" green="0.9529411793" blue="0.93333339689999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="OJy-rd-fND" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pzD-NZ-Ix0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="8ed-45-tSH" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="18.840579710144929" y="947.54464285714278"/>
+            <point key="canvasLocation" x="-914" y="1123"/>
+        </scene>
+        <!--Resources Directions View Controller-->
+        <scene sceneID="A2c-Ei-xEP">
+            <objects>
+                <viewController id="VMW-aE-CTY" customClass="ResourcesDirectionsViewController" customModule="IDeology" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YkQ-f8-uix">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="ypL-yJ-W2R">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Directions for the Resources" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OZC-zu-a6A">
+                                        <rect key="frame" x="32" y="105" width="350" height="74"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="25"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PVx-Ua-Ssx">
+                                        <rect key="frame" x="44" y="158" width="327" height="430"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <attributedString key="attributedText">
+                                            <fragment>
+                                                <string key="content">Welcome! The resources page   links both a website and a video on phishing right in the app! It's perfect if you want to learn even more about how to keep yourself safe online!Click one of the buttons below to go through a resource!</string>
+                                                <attributes>
+                                                    <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                    <font key="NSFont" size="20" name="Optima-Regular"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineHeightMultiple="2" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i0l-mI-SIH">
+                                        <rect key="frame" x="123" y="609" width="162" height="52"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="tintColor" red="0.46304655080000001" green="0.48989814520000002" blue="0.65687543150000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Article">
+                                            <fontDescription key="titleFontDescription" name="Optima-Regular" family="Optima" pointSize="20"/>
+                                            <color key="baseBackgroundColor" red="0.28980290889999999" green="0.4348811507" blue="0.64226138590000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <segue destination="Fyu-ca-eD9" kind="presentation" modalPresentationStyle="fullScreen" id="x8J-Wu-0yK"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5B0-zh-1Qq">
+                                        <rect key="frame" x="123" y="669" width="162" height="52"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="tintColor" red="0.46304655080000001" green="0.48989814520000002" blue="0.65687543150000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Video">
+                                            <fontDescription key="titleFontDescription" name="Optima-Regular" family="Optima" pointSize="20"/>
+                                            <color key="baseBackgroundColor" red="0.28980290889999999" green="0.4348811507" blue="0.64226138590000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <segue destination="4XK-eS-QX8" kind="presentation" modalPresentationStyle="fullScreen" id="Uls-ob-BD4"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u1Q-gZ-BTp">
+                                        <rect key="frame" x="123" y="729" width="162" height="52"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Back to Home">
+                                            <fontDescription key="titleFontDescription" name="Optima-Regular" family="Optima" pointSize="20"/>
+                                            <color key="baseBackgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="backToHome:" destination="WEm-9h-yBD" eventType="touchUpInside" id="Tn4-Bs-es3"/>
+                                            <action selector="backToHome:" destination="VMW-aE-CTY" eventType="touchUpInside" id="Uay-JA-AzX"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <viewLayoutGuide key="safeArea" id="hg0-Td-Zqn"/>
+                                <color key="backgroundColor" red="0.95684498549999997" green="0.95297104119999998" blue="0.93246603009999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="HGZ-Jh-azw"/>
+                        <color key="backgroundColor" red="0.95686274770000002" green="0.9529411793" blue="0.93333339689999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="O16-a8-n0v" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="19" y="783"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="dit-Mz-edP">
@@ -333,14 +437,14 @@
         <scene sceneID="HY0-Rp-kh5">
             <objects>
                 <viewController id="MaM-S3-8ai" customClass="checkInQuestions" customModule="IDeology" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="vH4-Db-cVv">
+                    <view key="view" contentMode="scaleToFill" id="vH4-Db-cVv">
                         <rect key="frame" x="0.0" y="0.0" width="416" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mIn-mf-tw8">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mIn-mf-tw8">
                                 <rect key="frame" x="0.0" y="0.0" width="416" height="896"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="F3M-jg-yVV">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="F3M-jg-yVV">
                                         <rect key="frame" x="0.0" y="0.0" width="438" height="1500"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Security Check-In" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nXf-fM-8Nt">
@@ -618,7 +722,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vK9-ww-2Ir" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1460.8695652173915" y="480.80357142857139"/>
+            <point key="canvasLocation" x="-1600" y="-138"/>
         </scene>
         <!--View Controller Email-->
         <scene sceneID="ebg-dB-XEC">
