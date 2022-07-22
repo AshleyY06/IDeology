@@ -8,7 +8,7 @@
 import UIKit
 
 class checkInQuestions: UIViewController {
-
+    
     @IBOutlet weak var passwordAnswer: UILabel!
     
     @IBOutlet weak var authenticationLabel: UILabel!
